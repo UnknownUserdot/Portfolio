@@ -1,0 +1,391 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B33968A12B78A1D900D693E4 /* PlayerInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = B33968A02B78A1D900D693E4 /* PlayerInfo.swift */; };
+		B33968A32B78A80800D693E4 /* UsrData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B33968A22B78A80800D693E4 /* UsrData.swift */; };
+		B33968A52B79DA3E00D693E4 /* Inv.swift in Sources */ = {isa = PBXBuildFile; fileRef = B33968A42B79DA3E00D693E4 /* Inv.swift */; };
+		B33968A72B79F75900D693E4 /* Market.swift in Sources */ = {isa = PBXBuildFile; fileRef = B33968A62B79F75900D693E4 /* Market.swift */; };
+		B38B95812B7B3F510059CCE3 /* MarketPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B38B95802B7B3F510059CCE3 /* MarketPage.swift */; };
+		B3C319062B7754C900547708 /* The_Black_MarketApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3C319052B7754C900547708 /* The_Black_MarketApp.swift */; };
+		B3C319082B7754C900547708 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3C319072B7754C900547708 /* ContentView.swift */; };
+		B3C3190A2B7754C900547708 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3C319092B7754C900547708 /* Item.swift */; };
+		B3C3190C2B7754CA00547708 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3C3190B2B7754CA00547708 /* Assets.xcassets */; };
+		B3C3190F2B7754CA00547708 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3C3190E2B7754CA00547708 /* Preview Assets.xcassets */; };
+		B3C319182B775DF100547708 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3C319172B775DF100547708 /* Home.swift */; };
+		B3FC374D2B98CAB20081F8FB /* GameOver.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3FC374C2B98CAB20081F8FB /* GameOver.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B33968A02B78A1D900D693E4 /* PlayerInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerInfo.swift; sourceTree = "<group>"; };
+		B33968A22B78A80800D693E4 /* UsrData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsrData.swift; sourceTree = "<group>"; };
+		B33968A42B79DA3E00D693E4 /* Inv.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Inv.swift; sourceTree = "<group>"; };
+		B33968A62B79F75900D693E4 /* Market.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Market.swift; sourceTree = "<group>"; };
+		B38B95802B7B3F510059CCE3 /* MarketPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketPage.swift; sourceTree = "<group>"; };
+		B397802A2BA4A4EB001C7AC2 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		B3C319022B7754C900547708 /* The Black Market.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "The Black Market.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3C319052B7754C900547708 /* The_Black_MarketApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = The_Black_MarketApp.swift; sourceTree = "<group>"; };
+		B3C319072B7754C900547708 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B3C319092B7754C900547708 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		B3C3190B2B7754CA00547708 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B3C3190E2B7754CA00547708 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B3C319102B7754CA00547708 /* The_Black_Market.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = The_Black_Market.entitlements; sourceTree = "<group>"; };
+		B3C319112B7754CA00547708 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B3C319172B775DF100547708 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		B3FC374C2B98CAB20081F8FB /* GameOver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameOver.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B3C318FF2B7754C900547708 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B3C318F92B7754C900547708 = {
+			isa = PBXGroup;
+			children = (
+				B3C319042B7754C900547708 /* The Black Market */,
+				B3C319032B7754C900547708 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B3C319032B7754C900547708 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B3C319022B7754C900547708 /* The Black Market.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B3C319042B7754C900547708 /* The Black Market */ = {
+			isa = PBXGroup;
+			children = (
+				B397802A2BA4A4EB001C7AC2 /* README.md */,
+				B3C319052B7754C900547708 /* The_Black_MarketApp.swift */,
+				B3C319072B7754C900547708 /* ContentView.swift */,
+				B38B95802B7B3F510059CCE3 /* MarketPage.swift */,
+				B3C319172B775DF100547708 /* Home.swift */,
+				B33968A22B78A80800D693E4 /* UsrData.swift */,
+				B3FC374C2B98CAB20081F8FB /* GameOver.swift */,
+				B33968A02B78A1D900D693E4 /* PlayerInfo.swift */,
+				B33968A42B79DA3E00D693E4 /* Inv.swift */,
+				B3C319092B7754C900547708 /* Item.swift */,
+				B33968A62B79F75900D693E4 /* Market.swift */,
+				B3C3190B2B7754CA00547708 /* Assets.xcassets */,
+				B3C319102B7754CA00547708 /* The_Black_Market.entitlements */,
+				B3C319112B7754CA00547708 /* Info.plist */,
+				B3C3190D2B7754CA00547708 /* Preview Content */,
+			);
+			path = "The Black Market";
+			sourceTree = "<group>";
+		};
+		B3C3190D2B7754CA00547708 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B3C3190E2B7754CA00547708 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B3C319012B7754C900547708 /* The Black Market */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3C319142B7754CA00547708 /* Build configuration list for PBXNativeTarget "The Black Market" */;
+			buildPhases = (
+				B3C318FE2B7754C900547708 /* Sources */,
+				B3C318FF2B7754C900547708 /* Frameworks */,
+				B3C319002B7754C900547708 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "The Black Market";
+			productName = "The Black Market";
+			productReference = B3C319022B7754C900547708 /* The Black Market.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B3C318FA2B7754C900547708 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					B3C319012B7754C900547708 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = B3C318FD2B7754C900547708 /* Build configuration list for PBXProject "The Black Market" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B3C318F92B7754C900547708;
+			productRefGroup = B3C319032B7754C900547708 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B3C319012B7754C900547708 /* The Black Market */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B3C319002B7754C900547708 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3C3190F2B7754CA00547708 /* Preview Assets.xcassets in Resources */,
+				B3C3190C2B7754CA00547708 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B3C318FE2B7754C900547708 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B33968A12B78A1D900D693E4 /* PlayerInfo.swift in Sources */,
+				B3C319082B7754C900547708 /* ContentView.swift in Sources */,
+				B33968A32B78A80800D693E4 /* UsrData.swift in Sources */,
+				B3FC374D2B98CAB20081F8FB /* GameOver.swift in Sources */,
+				B33968A72B79F75900D693E4 /* Market.swift in Sources */,
+				B3C3190A2B7754C900547708 /* Item.swift in Sources */,
+				B3C319182B775DF100547708 /* Home.swift in Sources */,
+				B3C319062B7754C900547708 /* The_Black_MarketApp.swift in Sources */,
+				B38B95812B7B3F510059CCE3 /* MarketPage.swift in Sources */,
+				B33968A52B79DA3E00D693E4 /* Inv.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		B3C319122B7754CA00547708 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B3C319132B7754CA00547708 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B3C319152B7754CA00547708 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "The Black Market/The_Black_Market.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"The Black Market/Preview Content\"";
+				DEVELOPMENT_TEAM = 8BRKDGS6WB;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "The Black Market/Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kasacorp.The-Black-Market";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B3C319162B7754CA00547708 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "The Black Market/The_Black_Market.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"The Black Market/Preview Content\"";
+				DEVELOPMENT_TEAM = 8BRKDGS6WB;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "The Black Market/Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kasacorp.The-Black-Market";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B3C318FD2B7754C900547708 /* Build configuration list for PBXProject "The Black Market" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3C319122B7754CA00547708 /* Debug */,
+				B3C319132B7754CA00547708 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B3C319142B7754CA00547708 /* Build configuration list for PBXNativeTarget "The Black Market" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3C319152B7754CA00547708 /* Debug */,
+				B3C319162B7754CA00547708 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B3C318FA2B7754C900547708 /* Project object */;
+}
